@@ -1,0 +1,23 @@
+{
+  "name": "scrollBar",
+  "description": "美化原生浏览器的滚动条一款小型插件",
+  "version": "1.0.0",
+  "manifest_version": 2,
+  "icons": {
+		"16": "img/logo@16x16.png",
+		"32": "img/logo@32x32.png",
+		"48": "img/logo@48x48.png",
+		"64": "img/logo@64x64.png",
+		"128": "img/logo@128x128.png"
+	},
+	"browser_action": {
+		"default_icon": "img/logo@128x128.png", 
+		"default_title": "scrollBar"
+	},
+	"content_scripts": [
+		{
+			"matches": ["http://*/*", "https://*/*"],
+			"css": ["content/scrollbar.css"]
+		}
+	]
+}

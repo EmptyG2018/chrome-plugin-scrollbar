@@ -1,0 +1,27 @@
+::-webkit-scrollbar{
+	box-sizing: border-box !important;
+	width: 6px !important;
+	height: 6px !important;
+	background-color: transparent !important;
+	overflow: auto !important;
+	border: 0 !important;
+	padding: 0 !important;
+	margin: 0 !important;
+}
+::-webkit-scrollbar-thumb{
+	box-sizing: border-box;
+	width: 6px !important;
+	height: 6px !important;
+	border-radius: 3px !important;
+	background-color: rgba(144, 147, 153, .5) !important;
+	border: 0 !important;
+	padding: 0 !important;
+	margin: 0 !important;
+}
+::-webkit-scrollbar-track{
+	box-sizing: border-box !important;
+	background-color: #FFF !important;
+	border: 0 !important;
+	padding: 0 !important;
+	margin: 0 !important;
+}
